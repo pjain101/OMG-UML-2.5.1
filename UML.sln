@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML", "Metamodel\UML.csproj", "{34C25127-EAED-46BC-A3CD-A3C900C59D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML.Factory", "UML.Factory\UML.Factory.csproj", "{3F156F6C-C768-4A70-A346-63D4B0B2C896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML.Tests", "UML.Tests\UML.Tests.csproj", "{A180BF34-5E86-43CF-BD42-8952CC89990C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C25127-EAED-46BC-A3CD-A3C900C59D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C25127-EAED-46BC-A3CD-A3C900C59D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C25127-EAED-46BC-A3CD-A3C900C59D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C25127-EAED-46BC-A3CD-A3C900C59D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F156F6C-C768-4A70-A346-63D4B0B2C896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F156F6C-C768-4A70-A346-63D4B0B2C896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F156F6C-C768-4A70-A346-63D4B0B2C896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F156F6C-C768-4A70-A346-63D4B0B2C896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A180BF34-5E86-43CF-BD42-8952CC89990C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A180BF34-5E86-43CF-BD42-8952CC89990C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A180BF34-5E86-43CF-BD42-8952CC89990C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A180BF34-5E86-43CF-BD42-8952CC89990C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EF687AE-165F-4E38-B35B-DA26DE09C756}
+	EndGlobalSection
+EndGlobal

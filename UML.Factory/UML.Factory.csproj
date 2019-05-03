@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Actions - Копировать\**" />
+    <Compile Remove="Activities - Копировать\**" />
+    <Compile Remove="Classification - Копировать\**" />
+    <Compile Remove="CommonBehavior - Копировать\**" />
+    <Compile Remove="CommonStructure - Копировать\**" />
+    <Compile Remove="Deployments - Копировать\**" />
+    <Compile Remove="InformationFlows - Копировать\**" />
+    <Compile Remove="Interactions - Копировать\**" />
+    <Compile Remove="Packages - Копировать\**" />
+    <Compile Remove="SimpleClassifiers - Копировать\**" />
+    <Compile Remove="StateMachines - Копировать\**" />
+    <Compile Remove="StructuredClassifiers - Копировать\**" />
+    <Compile Remove="UseCases - Копировать\**" />
+    <Compile Remove="Values - Копировать\**" />
+    <EmbeddedResource Remove="Actions - Копировать\**" />
+    <EmbeddedResource Remove="Activities - Копировать\**" />
+    <EmbeddedResource Remove="Classification - Копировать\**" />
+    <EmbeddedResource Remove="CommonBehavior - Копировать\**" />
+    <EmbeddedResource Remove="CommonStructure - Копировать\**" />
+    <EmbeddedResource Remove="Deployments - Копировать\**" />
+    <EmbeddedResource Remove="InformationFlows - Копировать\**" />
+    <EmbeddedResource Remove="Interactions - Копировать\**" />
+    <EmbeddedResource Remove="Packages - Копировать\**" />
+    <EmbeddedResource Remove="SimpleClassifiers - Копировать\**" />
+    <EmbeddedResource Remove="StateMachines - Копировать\**" />
+    <EmbeddedResource Remove="StructuredClassifiers - Копировать\**" />
+    <EmbeddedResource Remove="UseCases - Копировать\**" />
+    <EmbeddedResource Remove="Values - Копировать\**" />
+    <None Remove="Actions - Копировать\**" />
+    <None Remove="Activities - Копировать\**" />
+    <None Remove="Classification - Копировать\**" />
+    <None Remove="CommonBehavior - Копировать\**" />
+    <None Remove="CommonStructure - Копировать\**" />
+    <None Remove="Deployments - Копировать\**" />
+    <None Remove="InformationFlows - Копировать\**" />
+    <None Remove="Interactions - Копировать\**" />
+    <None Remove="Packages - Копировать\**" />
+    <None Remove="SimpleClassifiers - Копировать\**" />
+    <None Remove="StateMachines - Копировать\**" />
+    <None Remove="StructuredClassifiers - Копировать\**" />
+    <None Remove="UseCases - Копировать\**" />
+    <None Remove="Values - Копировать\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Metamodel\UML.csproj" />
+  </ItemGroup>
+
+</Project>
